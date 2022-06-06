@@ -31,3 +31,11 @@ variable "route53_zone_id" {
 variable "route53_domain_name" {
   type = string
 }
+
+# --------------------------------------------------------------
+#  Misc
+# --------------------------------------------------------------
+variable "enabled" {
+  type = bool
+  default = true
+}
